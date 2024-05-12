@@ -1,0 +1,45 @@
+.latest
+{
+    background-color:#727468;
+    padding-top: 60px;
+//     clip-path: polygon(0 0, 100% 0, 100% 100%, 73% 94%, 0 100%);
+ }
+.fir{
+    background-color: var(--primary);
+   color: white;
+   border: none;
+   padding: 5px;
+   width: 90px;
+   height: 40px;
+
+}
+.sec{
+    border: 2px solid var(--primary);
+    color: white;
+  background:transparent;
+  padding: 8px;
+//   border-radius: 5;
+}
+.bnt{
+    background-color: var(--primary);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    width: 150px;
+}
+
+@media(max-width:970px){
+    section{
+        .first-card{
+            display: flex;
+
+        }
+    }
+}
+
+@media(max-width:770px){
+    .sec{
+        font-size: 10px;
+    }
+}

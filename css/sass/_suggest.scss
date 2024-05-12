@@ -1,0 +1,42 @@
+.suggest{
+   background-color:#727468;
+   padding-top: 80px ;
+     clip-path: polygon(0 0, 100% 0, 100% 100%, 73% 94%, 0 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+
+}
+
+
+.node{
+    border: 1px solid #1DDDBD;
+    background: transparent;
+    width: 250px;
+    display: flex;
+    justify-content: start;
+    padding: 10px;
+    color: white;
+    
+    
+}
+.node::placeholder{
+    background-color: white;
+}
+.module{
+    background-color: #1DDDBD;
+    border: none;
+    outline: 0;
+    padding: 10px;
+    width: 100px;
+    border-radius: 5px;
+}
+.para{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+.git i{
+    // background: #1DDDBD;
+    color: white;
+}

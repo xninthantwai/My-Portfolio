@@ -1,0 +1,262 @@
+@import "../node_modules/bootstrap/dist/css/bootstrap.css";
+.navbar {
+  background-color: #727468;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: fixed;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  opacity: 1;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.logo {
+  cursor: pointer;
+  transition: 3s ease;
+}
+
+.logo span {
+  color: #1DDDBD;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.navbar a {
+  color: var(--text-color);
+  font-weight: 500;
+  transition: 0.3s ease;
+  border-bottom: 3px solid transparent;
+}
+
+.navbar a:hover,
+.navbar a.active {
+  color: #1DDDBD;
+  border-bottom: 2px solid #1DDDBD;
+}
+
+:root {
+  --primary: rgb(29, 221, 189);
+  --bgDark: rgb(12, 12, 12);
+  --white: rgb(250, 250, 250);
+  --secondary: rgb(0, 59, 50);
+  --bgLight: rgb(190, 181, 181);
+}
+
+header {
+  background-color: #727469;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 73% 94%, 0 100%);
+          clip-path: polygon(0 0, 100% 0, 100% 100%, 73% 94%, 0 100%);
+}
+
+header h1 {
+  font-family: "Poppins", serif;
+}
+
+@media (max-width: 970px) {
+  header {
+    background-color: #727468;
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  .first-img {
+    padding-right: 45px;
+    margin-top: 30px;
+  }
+}
+@media (max-width: 770px) {
+  header {
+    background-color: #727468;
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+}
+.first-img {
+  height: 600px;
+  width: 500px;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.sec-section {
+  padding-top: 130px;
+}
+
+.first {
+  color: var(--primary);
+}
+
+.second {
+  color: white;
+  font-size: 50px;
+  font-family: "Poppins", serif;
+}
+
+.third {
+  color: var(--primary);
+  letter-spacing: 10px;
+  font-size: 60px;
+  font-family: "poppins", serif;
+}
+
+.first-btn {
+  border: 1px solid var(--primary);
+  background-color: transparent;
+  color: var(--primary);
+  padding: 10px;
+  width: 200px;
+}
+
+@media (max-width: 970px) {
+  .first-btn {
+    width: 150px;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 670px) {
+  .first-btn {
+    width: 150px;
+    margin-bottom: 20px;
+  }
+}
+.about {
+  background-color: #727468;
+}
+
+section h1 {
+  font-family: "Poppins", serif;
+}
+
+section span {
+  color: var(--primary);
+}
+
+h3 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+h5 {
+  color: var(--primary);
+}
+
+.dev {
+  color: var(--primary);
+}
+
+.more {
+  padding-top: 50px;
+}
+
+.progress-bar {
+  background-color: var(--primary);
+}
+
+.latest {
+  background-color: #727468;
+  padding-top: 60px;
+}
+
+.fir {
+  background-color: var(--primary);
+  color: white;
+  border: none;
+  padding: 5px;
+  width: 90px;
+  height: 40px;
+}
+
+.sec {
+  border: 2px solid var(--primary);
+  color: white;
+  background: transparent;
+  padding: 8px;
+}
+
+.bnt {
+  background-color: var(--primary);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  width: 150px;
+}
+
+@media (max-width: 970px) {
+  section .first-card {
+    display: flex;
+  }
+}
+@media (max-width: 770px) {
+  .sec {
+    font-size: 10px;
+  }
+}
+.hobby {
+  gap: 20px;
+  display: flex;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+  background-color: white;
+}
+
+.hobby-items {
+  border: 1px solid #1DDDBD;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.suggest {
+  background-color: #727468;
+  padding-top: 80px;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 73% 94%, 0 100%);
+          clip-path: polygon(0 0, 100% 0, 100% 100%, 73% 94%, 0 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.node {
+  border: 1px solid #1DDDBD;
+  background: transparent;
+  width: 250px;
+  display: flex;
+  justify-content: start;
+  padding: 10px;
+  color: white;
+}
+
+.node::-moz-placeholder {
+  background-color: white;
+}
+
+.node::placeholder {
+  background-color: white;
+}
+
+.module {
+  background-color: #1DDDBD;
+  border: none;
+  outline: 0;
+  padding: 10px;
+  width: 100px;
+  border-radius: 5px;
+}
+
+.para {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+}
+
+.git i {
+  color: white;
+}/*# sourceMappingURL=style.css.map */

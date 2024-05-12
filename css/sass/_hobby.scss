@@ -1,0 +1,21 @@
+.hobby{
+   gap: 20px;
+   display: flex;
+   padding-top: 15px;
+   padding-bottom: 15px;
+   justify-content: center;
+   align-items: center;
+   gap: 150px;
+   background-color: white;
+}
+
+.hobby-items{
+    border: 1px solid #1DDDBD;
+   
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}

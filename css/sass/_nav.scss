@@ -1,0 +1,33 @@
+.navbar{
+    background-color: #727468;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+    backdrop-filter: blur(10px);
+    opacity: 1;
+    z-index: 10;
+    cursor: pointer;
+}
+.logo{
+    cursor: pointer;
+    transition: 3s ease;
+}
+ .logo span{
+    color: #1DDDBD;
+    font-size: 30px;
+    font-weight: 700;
+}
+.navbar a{
+    
+    color: var(--text-color);
+    font-weight: 500;
+    transition: 0.3s ease;
+    border-bottom: 3px solid transparent;
+   
+}
+.navbar a:hover,
+.navbar a.active{
+    color:#1DDDBD ;
+    border-bottom: 2px solid #1DDDBD;
+}
