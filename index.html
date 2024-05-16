@@ -3,12 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>New Repo</title>
-    <link rel="icon" href="img/profile.svg">
+    <title>Ahkara</title>
+    <link rel="icon" href="img/heart1.svg">
     
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     
+    
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- <link rel="stylesheet" href="js/app.js"> -->
 
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
    
@@ -19,7 +22,7 @@
     <!-- Start Nav Section  -->
        <nav class="navbar  navbar-expand-lg">
         <div class="container">
-            <h5 class="text-dark"><span style="color: #1DDDBD;">A</span>hkara</h5>
+            <h5 class="text-dark brand" style="font-weight: 700;"><span style="color: #1DDDBD;">A</span>hkara</h5>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -27,10 +30,10 @@
 
            <div class="collapse navbar-collapse justify-content-end p-3" id="nav">
             <div class="navbar-nav gap-3">
-                <a href="#home" class="nav-link active">Home</a>
-                <a href="#about" class="nav-link ">About</a>
-                <a href="#project" class="nav-link ">Project</a>
-                <a href="#contact" class="nav-link ">Contact</a>
+                <a href="#home" class="nav-link active" style="color: #1DDDBD;">Home</a>
+                <a href="#about" class="nav-link " style="color: #1DDDBD;">About</a>
+                <a href="#project" class="nav-link " style="color: #1DDDBD;">Project</a>
+                <a href="#contact" class="nav-link " style="color: #1DDDBD;">Contact</a>
             </div>
            </div>
         </div>
@@ -40,20 +43,21 @@
          
 
        <!-- Start Header Section  -->
-         <header id="home" class="mt-2">
-            <div class="container-fluid">
+         <header id="home" class="sec-1 show-animation mt-2">
+            <div class="container-fluid animate">
                 <div class="row">
-                    <div class="col-md-12 col-lg-6 col-sm-12 p-3 mt-3">
+                    <div class="col-md-6 col-lg-6 col-sm-12 p-3 mt-3 ">
                         <img src="img/cute.svg" alt="" class="first-img">
                     </div>
-                    <div class="col-md-12 col-lg-6 col-sm-12 justify-content-center align-items-center sec-section">
-                        <h5 class="first">CODEWITHRANDOM</h5>
-                        <h1 class="second display-4 fw-light">I 'm a Web</h1>
-                        <h1 class="third">Developer</h1>
-                        <p class="text-light">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure iusto sint dolorem, architecto minima, voluptatum ipsum molestias cumque quis dolor in nisi eius enim. Soluta perspiciatis officia quasi placeat modi.</p>
-                        <button class="first-btn mt-2">
+                    <div class="col-md-6 col-lg-6 col-sm-12 justify-content-center align-items-center sec-section">
+                        <h5 class="first with">CODEWITHRANDOM</h5>
+                        <h1 class="second display-4 fw-light junior">I'm Junior Web</h1>
+                        <h1 class="third dev">Developer</h1>
+                        <p class="text-light you" style="color: #ccc;">If you are an entrepreneur, you know that your success connot depend on the opinious of others. Like the wind, opinions.Do you want to be even more successful? Learn to love learning and growth. The more effort you put into improving your skills.</p>
+                        <!-- <button class="first-btn mt-2 animate" style="color:white;">
                             Contact
-                        </button>
+                        </button>  -->
+                         <a href="#contact" class="nav-link text-center contact first-btn mt-2" style="color: white;">Contact</a>
                     </div>
                 </div>
             </div>
@@ -63,32 +67,32 @@
          
 
              <!-- Start Hobby Section  -->
-            <section class="container-fluid my-3 py-3 hobby">
+            <section class=" sec-2 show-animation container-fluid my-3 py-3 hobby">
                 <div class="container">
         
-                    <p class="text-center fw-bold mt-3">My Hobby</p>
+                    <p class="text-center fw-bold mt-3 animate">My Hobby</p>
         
                     <div class="row align-items-center justify-content-center icon">
                         
-                        <div class="col-7 col-md-5 col-lg-2 m-2 p-2 bg-light rounded-pill  fw-bold hobby-items">
+                        <div class="col-7 col-md-5 col-lg-2 m-2 p-2 bg-light rounded-pill  fw-bold hobby-items animate">
                             <i class="fa-solid fa-code p-2 mx-2 text-dark rounded-pill" style="background-color: #1DDDBD;""></i>
-                            <span class="text-dark ">CODING</span>
+                            <span class="text-dark">CODING</span>
                         </div>
                         
         
-                        <div class="col-7 col-md-5 col-lg-2 m-2 p-2 bg-light rounded-pill  fw-bold hobby-items">
+                        <div class="col-7 col-md-5 col-lg-2 m-2 p-2 bg-light rounded-pill  fw-bold hobby-items animate">
                             <i class="fa-solid fa-headphones p-2 mx-2 text-dark rounded-pill" style="background-color: #1DDDBD;"></i>
-                            <span class="text-dark">MUSIC</span>
+                            <span class="text-dark ">MUSIC</span>
                         </div>
                         
         
-                        <div class="col-7 col-md-5 col-lg-2 m-2 p-2 bg-light rounded-pill fw-bold hobby-items">
+                        <div class="col-7 col-md-5 col-lg-2 m-2 p-2 bg-light rounded-pill fw-bold hobby-items animate">
                             <i class="fa-solid fa-earth-americas p-2 mx-2  text-dark rounded-pill" style="background-color: #1DDDBD;"></i>
-                            <span class="text-dark">TRAVELING</span>
+                            <span class="text-dark ">TRAVELING</span>
                         </div>
                         
         
-                        <div class="col-7 col-md-5 col-lg-2 m-2 p-2 bg-light rounded-pill  fw-bold hobby-items">
+                        <div class="col-7 col-md-5 col-lg-2 m-2 p-2 bg-light rounded-pill  fw-bold hobby-items animate">
                             <i class="fa-solid fa-utensils p-2 mx-2 text-dark rounded-pill" style="background-color: #1DDDBD;"></i>
                             <span class="text-dark">COOKING</span>
                         </div>
@@ -100,71 +104,71 @@
       
 
        <!-- Start More About Me  -->
-         <section class="about" id="about">
+         <section class=" sec-3 show-animation about" id="about">
             <div class="container">
                
-                <div class="col-md-12 text-center text-light mt-3 more">
-                    <h1>More <span>About</span> Me</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, magnam?</p>
+                <div class="col-md-12 text-center text-light mt-3 more animate">
+                    <h1 class="me">More <span>About</span> Me</h1>
+                    <p class="em">If you are an entrepreneur, you know that your success connot depend on the opinious of others!</p>
                 </div> <br>
 
                 <div class="row">
 
-                    <div class="col-md-6 col-sm-12 p-5 ">
+                    <div class="col-md-6 col-sm-12 p-5 edu ">
                     
-                        <h5 class="text-light">My Education</h5> <br>
+                        <h5>My Education</h5> <br>
                         
                         <div>
                             <p class="text-secondary">2020-2023</p>
                             <h6 class="dev">UI/UX Web Design</h6>
-                             <p class="text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe dolor aperiam deserunt dolorem neque cumque explicabo facilis non perferendis eligendi?</p>
+                             <p style="color: #ccc;">Do you want to be even more successful? Learn to love learning and growth. The more effort you put into improving your skills.The more effort you put into improving your skills.</p>
 
                         </div> <br>
 
-                        <div>
+                        <div class="animate">
                             <p class="text-secondary">2023-2024</p>
                             <h6 class="dev">Web Development</h6>
-                            <p class="text-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti molestias reiciendis neque dolorum! Reprehenderit quis sint laboriosam, totam blanditiis distinctio?</p>
+                            <p style="color: #ccc;">If you are an entrepreneur, you know that your success cannot depend on the opinions of others. Like the wind, opinions. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore, distinctio?</p>
                         </div>
                     </div>
                 
                    
 
                   
-                    <div class="col-md-6 col-sm-12 p-5">
-                        <h5 class="text-light">My Skill</h5>
+                    <div class="col-md-6 col-sm-12 p-5 skill">
+                        <h5>My Skill</h5>
                        <br>
 
-                        <div>
-                            <p class="text-light">HTML</p>
+                        <div class="animate">
+                            <p style="color:#ccc;">HTML</p>
                              <div class="progress rounded-0" style="height: 5px;">
                                  <div class="progress-bar " style="width: 85%;">
                                 </div>
                         </div> <br>
 
-                        <div>
-                            <p class="text-light">CSS</p>
+                        <div class="animate">
+                            <p style="color:#ccc ;">CSS</p>
                              <div class="progress rounded-0" style="height: 5px;">
                                  <div class="progress-bar " style="width: 60%;">
                                 </div>
                         </div> <br>
 
-                        <div>
-                            <p class="text-light">JARASCRIPT</p>
+                        <div class="animate">
+                            <p style="color:#ccc ;">JARASCRIPT</p>
                              <div class="progress rounded-0" style="height: 5px;">
                                  <div class="progress-bar" style="width: 45%;">
                                 </div>
                         </div> <br>
 
-                        <div>
-                            <p class="text-light">PHP</p>
+                        <div class="animate">
+                            <p style="color:#ccc ;">PHP</p>
                              <div class="progress rounded-0" style="height: 5px;">
                                  <div class="progress-bar" style="width: 15%;">
                                 </div>
                         </div> <br>
 
-                        <div>
-                            <p class="text-light">LARAVEL</p>
+                        <div class="animate">
+                            <p style="color: #ccc;">LARAVEL</p>
                              <div class="progress rounded-0" style="height: 5px;">
                                  <div class="progress-bar" style="width: 50%;">
                                 </div>
@@ -187,43 +191,43 @@
 
 
          <!-- Start Latest Project  -->
-         <section class="latest" id="project">
-            <div class="container text-center ">
+         <section class="latest sec-4 show-animation" id="project">
+            <div class="container text-center love ">
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-md-12 animate">
                         <h2 class="text-light">My <span> Latest </span> Project</h2>
-                        <p class="text-light">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis aspernatur consectetur rerum ipsum animi dolores?</p>
-                        <button class=" fir rounded-pill me-2">All</button>
-                        <button class=" sec rounded-pill me-2">Web Development</button>
+                        <p class="text-light">Do you want to be even more successful? Learn to love learning and growth. The more effort you put into improving your skills.</p>
+                        <button class=" fir rounded-pill me-2" style="color: white;">All</button>
+                        <button class=" sec rounded-pill me-2" style="color: #ccc;">Web Development</button>
                        
-                        <button class=" sec rounded-pill me-2">Fronend</button>
-                        <button class=" sec rounded-pill me-2">Backend</button>
-                        <button class=" sec rounded-pill me-2">Full Strack</button>
+                        <button class=" sec rounded-pill me-2" style="color: #ccc;">Fronend</button>
+                        <button class=" sec rounded-pill me-2" style="color: #ccc;">Backend</button>
+                        <button class=" sec rounded-pill me-2" style="color:#ccc;">Full Strack</button>
                     </div> 
                     
-                    <div class="col-md-12 d-flex mt-4">
+                    <div class="col-md-12 d-flex mt-4 ">
                        <div class="row">
                         <div class="col-lg-3 col-md-6">
                             <div class="card mt-4 first-card">
-                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKI3XtrSAZceLMCulE4c2bYatqzN3bDfs0aw&usqp=CAU" alt="">
+                                <img src="img/pj1.jpeg" alt="">
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6">
+                        <div class="col-lg-3 col-md-6 ">
                             <div class="card mt-5">
-                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWLk1xsVWcwwyLPBEXln1mOBTqlsoLrBf-ow&usqp=CAU" alt="">
+                                <img src="img/pj2.jpeg" alt="">
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6">
                             <div class="card mt-4">
                               
-                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmfJxWOrSJ1zfL0dsV7ezKcQfCUjqIEHPgxQ&usqp=CAU" alt="">
+                                <img src="img/pj3.jpeg" alt="">
                               
                                
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6">
                             <div class="card mt-5">
-                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZWnb-Y4yPWcV9aO7rU11byBBd4feUjduMHIEf8zdvh1FSByfm4dNWv-nDoAbXwXiBB_M&usqp=CAU" alt="">
+                                <img src="img/pj4.jpeg" alt="">
                             </div>
                         </div>
                        </div>
@@ -232,7 +236,7 @@
                    
                 </div> <br>
                 <a href="https://github.com/xninthantwai/mini">
-                    <button class="bnt rounded-pill mb-5">See More</button>
+                    <button class="bnt rounded-pill mb-5 animate">See More</button>
                 </a>
                 
                 
@@ -241,18 +245,18 @@
          <!-- End Latest Project  -->
 
          <!-- Start Suggest Section  -->
-                <section class="suggest" id="contact">
+                <section class="suggest sec-5 show-animation" id="contact">
                     <div class="container">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <h5 class="para">Ahkara</h5> <br>
-                                <p class="para">Greeting, fellow digital explorers! I am Junior Web Developer. Welcome to my Online Abode.</p>
+                        <div class="row animate">
+                            <div class="col-md-6 ahkara">
+                                <h5 class="para" style="color: #ccc;">Ahkara</h5> <br>
+                                <p class="para" style="color: #ccc;">Greeting, fellow digital explorers! I am Junior Web Developer. Welcome to my Online Abode.</p>
                                 <br>
-                               <h5 class="para">Address</h5> 
-                                <p class="para">Insein</p>
-                                <p class="para">Rangoon, Myanmar</p>
+                               <h5 class="para" style="color: #ccc;">Address</h5> 
+                                <p class="para" style="color: #ccc;">Insein</p>
+                                <p class="para" style="color: #ccc;">Rangoon, Myanmar</p>
                                 <br>
-                                <div class="git">
+                                <div class="git" style="color: #ccc;">
                                     <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook fs-3 me-2 mb-4 "></i></a>
                                     
                                     <a href="https://github.com/xninthantwai"><i class="fa-brands fa-github fs-3 me-2 mb-4 "></i></a>
@@ -264,13 +268,13 @@
                             </div>
 
                            
-                            <div class="col-md-6">
-                                <h5 class="para">New Selector</h5> <hr>
-                                <p class="para">Greeting, I am junior Web Developer</p>
+                            <div class="col-md-6 animate">
+                                <h5 class="para" style="color: #ccc;">New Selector</h5> <hr>
+                                <p class="para" style="color: #ccc;">Greeting, I am junior Web Developer</p>
                                 <br>
-                                <button class="node">Your Name :</button> <br>
-                                <button class="node mt-2 ">Your Address :</button> <br>
-                                <button class="module mt-2 para">Scribe</button>
+                                <button class="node" style="color: #ccc;">Email:</button> <br>
+                                <button class="node mt-2 " style="color: #ccc;">Phone:</button> <br>
+                                <button class="module mt-2 para" >Scribe</button>
                             </div>
                         </div>
                     </div>
@@ -283,8 +287,9 @@
          <!-- Start Footer Section  -->
          <footer class=" py-3">
             <div class="container-fluid">
-                <div class="col-12 text-center">
-                    <p class="text-dark para">&copy;Copyright  <span id="autoyear"></span> - Ahkara</p>
+                <div class="col-12 text-center love">
+                    <!-- <img src="img/heart1.svg" alt="" style="color: #1DDDBD;"> -->
+                    <p class="text-dark para text-muted"> &copy;Copyright - <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAAAXNSR0IArs4c6QAAAd9JREFUSEvF1c9rE0EUB/Dvm6aoF80mm0B2q5RCcui9EEXFq4h/gHfx0kvBg4UK9dDiQdFboXjzr2jPIoWKeBF/YKSCm7VldxkpUiibzNPBJt2YbXdDhzrH2Zn3mffezi7hFAadgoH/h0xubZ3dHT9/WwnVJKYGgPdQ6pWcqKyDqKuzt72g0RHiJjGaAHeZ6E2B1VroVj7/W52hTCwvuAWiFQCXUkrZAvETsLgB8J2U5wqgZ+dof9F3nL3e8wGk5Ed3mfmFgT69k3vyMur1fR2rj1zY2ZkSnbEPAM4YQHTkZenYDweQoh89Jeb7RoC/QX5Kp1wCEfczsdrhBqCbaG4IwnTk2B8PES/6CuIpc4SOJK5Kt/S6jxS9cJMIMyaRrlKN3YvVL4eZ+OESGAsGkZZ07fpA48vfQ1cJfANQMATNStfW923ws2L5wT0wrRpA3kqn3ARRZwjRE1Y7nP9zVx6fAPoUi/j6r1otSL3xvckTQENAaiY9qNiOFgn8aISMUoFjkYPS6bLp8mWNViziK8kSJTdk/k+sdpgFtQrj6lpQrW4fdZJMJCOjTCCzXMmTlbzgORPNJeZyASMhenECyg2MjByU7sFYzC/DycqPrLfh2HuSd3PedbkanzfYUet+A3morBoCSB5JAAAAAElFTkSuQmCC"/>  <span id="autoyear"></span> - Ahkara</p>
                 </div>
             </div>
            
@@ -306,7 +311,9 @@
     <!--for fontawesome-->
   <script src="fontawesome-free-6.4.2-web/fontawesome-free-6.4.2-web/js/all.min.js"></script>
 
-  
+  <!-- // For Scroll reveal -->
+  <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+  <script src="js/app.js"></script>
 
 </body>
 </html>

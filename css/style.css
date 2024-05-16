@@ -46,6 +46,8 @@
 
 header {
   background-color: #727469;
+  min-height: 100vh;
+  min-width: auto;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 73% 94%, 0 100%);
           clip-path: polygon(0 0, 100% 0, 100% 100%, 73% 94%, 0 100%);
 }
@@ -61,8 +63,8 @@ header h1 {
             clip-path: none;
   }
   .first-img {
-    padding-right: 45px;
     margin-top: 30px;
+    box-sizing: border-box;
   }
 }
 @media (max-width: 770px) {
@@ -72,9 +74,16 @@ header h1 {
             clip-path: none;
   }
 }
+@media (max-width: 570px) {
+  header .first-img {
+    width: auto;
+    height: auto;
+    border-radius: 50%;
+  }
+}
 .first-img {
-  height: 600px;
-  width: 500px;
+  height: 500px;
+  width: 400px;
   -o-object-position: center;
      object-position: center;
 }
@@ -95,7 +104,7 @@ header h1 {
 
 .third {
   color: var(--primary);
-  letter-spacing: 10px;
+  letter-spacing: 3px;
   font-size: 60px;
   font-family: "poppins", serif;
 }
